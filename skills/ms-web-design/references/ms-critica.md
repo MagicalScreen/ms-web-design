@@ -14,6 +14,10 @@ The passes live in `vendor/taste-skill/critique-passes.md`: section 1 of taste-s
 
 Open every critique, review and iteration with **Ya propio**: up to three things that already feel authored (a type decision, an image treatment, a way of captioning, one interaction), each with where it is. Fixes must leave them alone, and the closing line of the review names the most important of them.
 
+Ya propio protects decisions, not whatever happens to be on the page: a default that is there because the build put it there (a stock radius, a stock nav, a stock hover) is not the owner's just because it already exists.
+
+When nothing qualifies, say so, and look first for the owner's real material that the page hides or shrinks (a strong picture set small, a sharp caption, a real number, a process sketch). Making that visible comes before adding any new effect, interaction or decoration.
+
 ## Each finding
 
 Four parts, one line each: what you see; the rule, gate or `## Dirección` line it breaks; what it costs the visitor (understanding, trust, the work being seen); the smallest change that settles it. A local problem gets a local fix: never a new direction for one bad section.
@@ -22,8 +26,9 @@ Four parts, one line each: what you see; the rule, gate or `## Dirección` line 
 
 Hierarchy, then type, then layout and density, then images, then navigation, then motion, then small details. Do not polish a later rung while an earlier one fails, and do not change two of the first three at once unless the direction itself has failed.
 
-## Three more passes
+## Four more passes
 
+- **Why is it here.** For each element the gates let through but that still looks chosen by the build rather than the owner (a container, a gradient, a frame, a transition, a label with a joke in it), ask whether its author could say why it is there. A clear reason in the direction keeps it; no reason removes it; a doubtful one becomes a question to the user, not a finding.
 - **Navigation toll.** Count the interactions from the landing screen to the first piece of work. More than two is a finding; a navigation the visitor must learn before seeing anything is a finding whatever the count.
 - **Lead piece.** On an index of work, the lead piece reads as the lead, by size or position. Every tile at the same size and weight is a finding unless `## Dirección` says the set is deliberately flat.
 - **Swap test.** Imagine another person's work in the slots. If the site would feel the same, name what in the frame fails to answer the work.

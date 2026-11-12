@@ -59,6 +59,8 @@ Recommend one and say why. On a custom run the three sketches of `direction.md` 
 
 Every direction must hold with scripting off: the whole content reads in HTML and CSS, in order, and the work is reachable in one or two steps from the landing screen. Motion and interaction are a layer on top (Floor item 7, gate 62). A direction whose content needs script to appear is reworked or dropped; a motion-led one goes through `ms-movimiento.md`.
 
+The same test at 375px. Say how the idea lives on a phone: which part of it survives, what the layout becomes, where the navigation goes. The answer is a translation of the idea, never the desktop composition shrunk until it fits. A direction that has no phone answer, only a fallback, is reworked or dropped like one that needs script.
+
 ## 8. Translate into this skill's terms
 
 Name the genre, the base (a catalog theme, or custom through `direction.md`), the shape, the nav, the motion posture and the `ms-esteticas.md` territory it came from. Vague words become visible decisions: never *premium*, *modern* or *clean* without the type, spacing or colour choice that makes it so.
@@ -81,6 +83,7 @@ Origen: ms-web-design (dirección de arte, <yyyy-mm-dd>)
 - Images: <scale, crop, frame, captions>
 - Navigation: <model, persistence>
 - Motion: <normal | protagonista>; <what moves and why>
+- Phone: <what of the idea survives at 375px and what the layout becomes>
 - Signature: <one>; supporting details: <at most two>
 - Avoid: <specific defaults and misreadings of these references>
 ````
@@ -91,6 +94,7 @@ Then the ordinary flow: Step 3 takes the base named in `## Dirección` instead o
 
 ## After the build
 
+- **The work leads.** The site is a frame for the owner's work, never a show of its own. When the frame and the work compete for attention (chrome, containers, effects, a shell louder than the pictures inside it), take from the frame and give to the work: bigger images, fewer boxes, less to look at around them.
 - **The direction is a constraint.** A new idea in a later iteration strengthens it, fixes a named problem, or replaces a rule on purpose by editing `## Dirección`. Nothing else enters.
 - **Swap test.** Put another person's work in the slots: if the site would feel the same, the frame is not answering the work.
 - **A site of several pages** (a portfolio, a studio site): build the home and one complete inner page, such as one case study, review both, then the rest.

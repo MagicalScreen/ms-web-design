@@ -30,7 +30,7 @@ Reduction, space and calm: neutral ground, refined type, few interface elements,
 
 ## Sidebar and window
 
-A narrow persistent column holds identity, navigation and the list of work; a wide pane shows the selected piece. Fits a body of several pieces that a visitor browses while keeping their bearings. Risk: a crammed sidebar, or a main pane that turns into a card gallery. Without script each piece is its own page or an anchor target, and the sidebar is sticky in CSS.
+A narrow persistent column holds identity, navigation and the list of work; a wide pane shows the selected piece. Fits a body of several pieces that a visitor browses while keeping their bearings. Risk: a crammed sidebar, or a main pane that turns into a card gallery. Without script each piece is its own page or an anchor target, and the sidebar is sticky in CSS. The sidebar marks where the visitor is with no script either: `aria-current="page"` on the link of the page being shown, styled from that attribute, or `:target` when the pieces are anchors on one page.
 
 ## Code and design
 

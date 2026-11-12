@@ -65,6 +65,9 @@ Al adoptar una versión nueva de cualquiera de las dos fuentes, actualiza el com
 | `skills/ms-web-design/scripts/ms-sloplint.mjs` | Propio | — | Ampliado: rechaza la marca de un `design.md` con línea `Origen: ms-web-design` sin `## Marca del cliente`; lee la postura de movimiento y pasa F8 a nota; cuatro gates Reflex propios (`ms-hover`, `ms-cursor`, `ms-scroll`, `ms-intro`) con waiver `/* ms · waive · <gate> · <motivo> */` |
 | `skills/ms-web-design/scripts/ms-test.mjs`, `scripts/fixtures/ms-*` | Propio | — | Nuevos. Test y fixtures de lo anterior |
 | `.github/workflows/verify.yml` | Hallmark | `4f6a46c` | Paso nuevo que ejecuta `ms-test.mjs` |
+| `skills/ms-web-design/references/ms-arte.md` | Propio | — | Auditoría del 2026-11-09: el test de HTML también se pasa a 375px y la dirección dice qué sobrevive en el móvil (línea `Phone:` en `## Dirección`); principio «la obra manda» tras la construcción |
+| `skills/ms-web-design/references/ms-critica.md` | Propio | — | Auditoría del 2026-11-09: «Ya propio» protege decisiones, no valores por defecto; si está vacío, primero se saca a la luz el material real; pasada nueva «por qué está aquí» (las pasadas extra pasan de tres a cuatro) |
+| `skills/ms-web-design/references/ms-esteticas.md` | Propio | — | Auditoría del 2026-11-09: Sidebar and window marca la pieza activa sin script (`aria-current` o `:target`) |
 
 Notas:
 
@@ -89,4 +92,5 @@ Qué ideas influyeron y dónde:
 - Empezar la crítica por lo que ya es propio, corregir en un orden fijo y saber cuándo parar: `ms-critica.md`.
 - El vocabulario de territorios para portfolios: `ms-esteticas.md` (nueve; se descartó el de escritorio de sistema operativo por chocar con el Floor). Los ejemplos de la autora no se publican aquí.
 - Los patrones de interacción que esconden contenido o secuestran la navegación: gates `ms-hover`, `ms-cursor`, `ms-scroll` e `ms-intro` en `ms-sloplint.mjs`.
+- Auditoría del 2026-11-09, segunda lectura de las mismas fuentes: expresar la dirección en el móvil en lugar de encogerla, y la obra por encima del marco (`ms-arte.md`); no confundir lo que ya existe con lo que es propio, sacar a la luz el material real antes de añadir efectos, y preguntar por qué está cada elemento dudoso (`ms-critica.md`). Los otros patrones visuales de la fuente ya estaban cubiertos por gates de `sloplint` o por los `ms-*`, y no se añadió ningún gate nuevo.
 - La parte sobre textos (lenguaje genérico, prosa con sabor a IA, seniority inflada, métricas sin contexto, teatro de proceso) no entra en esta skill: queda anotada para `ms-portfolio-content`.
